@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta htpp-equiv="X-UA-Cpmpatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="index.php" method="POST">
+        <label for="username">username:</label>
+        <input type="text" id="username" placeholder="
+            frida_alonso11" minlength="9" maxlength="21" required><br>
+        <label for="password">password:</label>
+        <input type="password" id="password" placeholder="frida10117" minlength="9" maxlength="21" required><br>
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="falonso1@cps.edu"><br>
+        <label for="phone">phone#:</label>
+        <input type="phone" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}[0-9]{4}"><br>
+
+        <label for="bday">birthday:</label>
+        <input type="date" id="bday"><br>
+        <label for="quantity">quantity:</label>
+        <input type="number" id="quantity" minlength="1" maxlength="21" placeholder="1-21"><br>
+        <label for="title">title:</label>
+        <label for="Mr.">Mr.:</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Ms.">Ms.:</label>
+        <input type="radio" id="Ms." value="Ms." name="title">
+        <label for="PhD.">PhD.:</label>
+        <input type="radio" id="PhD." value="PhD." name="title"> <br>
+
+        <label for="payment">payment:</label>
+        <select id="payment">
+            <option value="Select">other:</option>
+            <option value="visa">visa:</option>
+            <option value="mastercard">mastercard:</option>
+            <option value="giftcard">giftcard:</option>
+        </select><br>
+        <label for="subscribe">subscribe:</label>
+        <input type="checkbox" id="subscribe"><br>
+        <label for="comment">comment:</label>
+        <textarea id="comment" rows="1" cols="25" placeholder="I love your videos!"></textarea>
+        <label for="file">file:</label>
+        <input type="file"><br>
+
+
+
+
+
+
+
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+
+</html>
